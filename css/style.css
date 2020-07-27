@@ -1,0 +1,64 @@
+* {
+  font-family: 'Product Sans';
+}
+
+html {
+background: white;
+}
+body {
+	font-size: 2rem;
+	margin: 0 auto;
+	/*padding: 3rem;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	letter-spacing: .1rem;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, .05);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	transform: rotate(10deg);
+}
+
+.zoom {
+	animation: zoom 2s infinite;
+}
+
+@keyframes zoom{
+	0%{
+		transform: rotate(10deg);
+	}
+	
+	50% {
+		transform: rotate(-10deg);
+	}
+	
+	100% {
+		transform: rotate(10deg);
+	}
+}
+p {
+  font-family: inherit;
+}
+
+button {
+  font-size: 2rem;
+	cursor: pointer;
+	-webkit-appearance: none;
+	outline: none;
+	background-color: rgba(0, 0, 255, .5);
+	width: 10rem;
+	height: 4rem;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin: 1rem;
+}
