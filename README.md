@@ -4,3 +4,6 @@ This is the simple one HTML paged example that shows how to use asynchronous Jav
 
 Try it out and see if it can help you implement the functionality in your *games* or *other personal projects*
 
+Please view the project at https://sam0132nodier.github.io/stopwatch/.
+
+Thank you!
